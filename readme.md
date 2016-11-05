@@ -23,7 +23,7 @@ _log error messages in red color to console_
 ```javascript
 var getAppDir = require('get-app-dir')
 
-console.log(getAppDir())
+console.log(getAppDir)
 ```
 
 #### ES6
@@ -31,7 +31,7 @@ console.log(getAppDir())
 ```javascript
 import getAppDir from 'get-app-dir'
 
-console.log(getAppDir())
+console.log(getAppDir)
 ```
 
 ### Contact / Social Media
