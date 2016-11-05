@@ -1,6 +1,6 @@
 {
   "name": "get-app-dir",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "get directory where the node app was started",
   "author": "Maik Ellerbrock",
   "main": "dist/index.js",
@@ -9,7 +9,6 @@
     "url": "git@github.com:ellerbrock/get-app-dir.git",
     "type": "git"
   },
-  "homepage": "https://ellerbrock.github.io/get-app-dir",
   "bugs": {
     "url": "https://github.com/ellerbrock/get-app-dir/issues"
   },
@@ -22,7 +21,6 @@
     "get-directory",
     "get-app-directory"
   ],
-
   "scripts": {
     "prebuild": "npm run clean:dist",
     "build": "cross-env NODE_ENV=production babel src -d dist",
