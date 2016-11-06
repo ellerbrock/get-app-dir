@@ -1,6 +1,6 @@
 {
   "name": "get-app-dir",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "get directory where the node app was started",
   "author": "Maik Ellerbrock",
   "main": "dist/index.js",
@@ -48,7 +48,6 @@
     "prerelease": "npm run update-dependencies && npm run setenv:prod && npm run clean && npm run build && npm run lint && npm run test && npm run coverage",
     "release": "standard-version --no-verify",
     "postrelease": "greenkeeper-postpublish && npm run setenv:dev",
-    "online": "git push --follow-tags origin master; npm publish",
     "security:test": "snyk test",
     "security:wizard": "snyk wizard",
     "security:protect": "snyk protect",
@@ -62,7 +61,8 @@
     "pretest": "npm run clean:coverage && npm run clean:reports",
     "test": "cross-env NODE_ENV=test mocha -c -S -R spec --compilers js:babel-register --check-leaks",
     "posttest": "cross-env NODE_ENV=test mocha -S -R mochawesome --compilers js:babel-register --reporter-options reportDir=reports --check-leaks",
-    "test:watch": "cross-env NODE_ENV=test npm test -- -w"
+    "test:watch": "cross-env NODE_ENV=test npm test -- -w",
+    "online": "git push --follow-tags origin master; npm publish"
   },
   "files": [
     "dist"
