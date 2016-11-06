@@ -80,7 +80,8 @@
     "env": {
       "production": {
         "presets": [
-          "babili"
+          "babili",
+          "es2015"
         ]
       }
     }
@@ -99,6 +100,7 @@
     "babel-istanbul": "0.11.0",
     "babel-node-debug": "^2.0.0",
     "babel-preset-babili": "^0.0.8",
+    "babel-preset-es2015": "6.18.0",
     "babel-preset-es2015-node6": "^0.3.0",
     "babel-preset-stage-0": "6.16.0",
     "babel-register": "^6.18.0",
