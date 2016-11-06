@@ -130,6 +130,6 @@
     "travis-lint": "1.0.0"
   },
   "dependencies": {
-    "error-log-exit": "0.0.1"
+    "error-log-exit": "0.0.2"
   }
 }
