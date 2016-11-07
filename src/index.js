@@ -1,13 +1,14 @@
 'use strict'
 
-import errorLogExit from 'error-log-exit'
+import errLogExit from 'error-log-exit'
+import { resolve } from 'path'
 
 export default getAppDir()
 
 function getAppDir () {
   if (typeof process !== 'object' || typeof process.cwd !== 'function') {
-    console.log(typeof process)
-    errorLogExit('function process.cmd not available', 1)
+    errLogExit('function process.cmd not available', 1)
   }
-  return process.cwd()
+  return resolve(process.cwd())
 }
+
