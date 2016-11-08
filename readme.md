@@ -2,7 +2,7 @@
 
 [![Javascript](https://badges.frapsoft.com/javascript/code/javascript.svg?v=100)](https://github.com/ellerbrock/javascript-badges/) [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/ellerbrock/javascript-badges/) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![Standard Version](https://img.shields.io/badge/release-standard%20version-brightgreen.svg)](https://github.com/conventional-changelog/standard-version) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badges/) [![Gitter Chat](https://badges.gitter.im/frapsoft/frapsoft.svg)](https://gitter.im/frapsoft/frapsoft/)
 
-_log error messages in red color to console_
+_get directory where the node app was started_
 
 ## Project Status
 
@@ -23,7 +23,7 @@ _log error messages in red color to console_
 ```javascript
 var getAppDir = require('get-app-dir')
 
-console.log(getAppDir)
+console.log(getAppDir) // /path/to/your/app
 ```
 
 #### ES6
@@ -31,7 +31,7 @@ console.log(getAppDir)
 ```javascript
 import getAppDir from 'get-app-dir'
 
-console.log(getAppDir)
+console.log(getAppDir) // /path/to/your/app
 ```
 
 ### Contact / Social Media
