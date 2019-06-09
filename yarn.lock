@@ -4747,9 +4747,10 @@ markdown-link-extractor@^1.1.0:
   dependencies:
     marked "^0.3.5"
 
-markdownlint@0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/markdownlint/-/markdownlint-0.11.0.tgz#3858bbdbc1ab78abf0c098d841c72b63dd3206a0"
+markdownlint@0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/markdownlint/-/markdownlint-0.15.0.tgz#14837354f01fe15bc06dfd5dd38247b79bd4c8f2"
+  integrity sha512-sNcrSrUgpNbTQX6rPIMd+RI9rAryGTEbDI9VFpcFyijlC5g8gpkma49k5p98yFLdNbdcB3VW69UJ0smxvTVw6g==
   dependencies:
     markdown-it "8.4.2"
 
